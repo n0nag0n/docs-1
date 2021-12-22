@@ -1,83 +1,50 @@
 Dokumentace Nette 2.1
 *********************
 
-<div class="columns navig documentation">
-<div class=column>
+<div class=documentation>
+
+<div>
 
 
-[* icon-guides.png *] Základní koncepty
----------------------------------------
+Aplikace v Nette
+----------------
 - [Jak fungují aplikace? |application/how-it-works]
 - [application/Bootstrap]
-- [Konfigurace |configuring]
 - [Presentery |application/presenters]
 - [Routování |application/routing]
 - [Vytváření odkazů URL |application/creating-links]
-- [Formuláře |forms/@home]
 - [Komponenty |application/components]
-- [Rozšíření PHP |utils/smartobject] (Nette\Object, anotace)
-- [Sessions |http/sessions]
-- [Přihlašování & oprávnění |security/access-control]
-- [Ochrana před zranitelnostmi |vulnerability-protection]
 - [AJAX & snippety |application/ajax]
-- [Cache |caching]
-- [Odesílání e-mailů |mailing]
-- [HTTP request & response|http/request-response]
-- [Překládání |cookbook/translations]
-- [Stránkování |utils/paginator]
-
-
-Dependency Injection
---------------------
-- [Úvod |di/introduction]
-- [Služby |di/services]
-- [Předávání závislostí |di/passing-dependencies]
-- [Tvorba rozšíření |di/extensions]
-
-
-Latte: šablonovací systém
--------------------------
-- [Dokumentace |templating]
-- [Makra |default-macros]
-- [Helpery |default-helpers]
 </div>
 
-<div class=column>
+
+<div>
 
 
-Užitečné nástroje
------------------
-- [Pole |utils/arrays] - manipulace s poli
-- [Code Checker] - kontrola a oprava kódu
-- [Finder] - hledání souborů na disku
-- [HTML elementy |utils/html-elements] - generování HTML
-- [Obrázky |utils/images] - ořezání, velikost, atd.
-- [RobotLoader|robot-loader] - autoloading tříd
-- [SafeStream |safe-stream] - atomické operace se soubory
-- [Řetězce |utils/strings] - manipulace s řetězci
-- [Parsování a skládání URL |http/urls]
-- [Validátor |utils/validators] - validace vstupů
+Hlavní témata
+-------------
+- [Formuláře |forms/@home]
+- [Šablony |templating]
+- [Debugování |debugging]
+</div>
 
 
-Databáze
---------
-- [Database|database/@home]
-- [Database Table|database/table]
-- [ActiveRow |database/activerow]
-- [Selection |database/selection]
+<div>
 
 
-Tracy: ladění kódu
-------------------
-- [Dokumentace |debugging]
-
-
-Testování
+Utilities
 ---------
-- [Úvodní stránka |tester:]
-- [Dokumentace |tester:guide]
+- [Pole |utils/arrays]
+- [HTML elementy |utils/html-elements]
+- [Obrázky |utils/images]
+- [Paginator |utils/paginator]
+- [Nette\Object |utils/smartobject]
+- [Řetězce |utils/strings]
+- [Validátor |utils/validators]
 </div>
+
 </div>
 
 
 {{toc:no}}
+{{description: Oficiální dokumentace Nette: popisuje, jak Nette funguje a osvědčené postupy pro vývoj webových aplikací.}}
