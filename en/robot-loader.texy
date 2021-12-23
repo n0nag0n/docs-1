@@ -86,3 +86,4 @@ $configurator->createRobotLoader()
 
 
 {{composer: nette/robot-loader}}
+{{leftbar: @menu-topics}}
