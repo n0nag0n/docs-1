@@ -4,8 +4,8 @@ Hlavní témata
 -------------
 - [Aplikace v Nette |application/how-it-works]
 - [Dependency Injection|di/introduction]
-- [Utilities |utils/homepage]
-- [Formuláře |forms/homepage]
+- [Utilities |utils/@home]
+- [Formuláře |forms/@home]
 - [Databáze |database/core]
 - [Přihlašování & oprávnění |security/access-control]
 - [http/Sessions]
