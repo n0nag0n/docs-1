@@ -54,7 +54,7 @@ Jak vidno, v Latte se používají dva druhy speciálních značek:
 Makra
 -----
 
-Popis všech výchozích maker najdete na [samostatné stránce |default macros]. Krom toho můžete vytvářet i [#vlastní makra].
+Popis všech výchozích maker najdete na [samostatné stránce |default-macros]. Krom toho můžete vytvářet i [#vlastní makra].
 
 Každé párové makro, například `{if} … {/if}`, operující nad jedním HTML elementem, se dá přepsat do podoby [n:makra |#n-makra]. Takto by bylo možné zapsat například i `{foreach}`
 
@@ -149,7 +149,7 @@ Což vypíše v závislosti na proměnné `$url`:
 <p><a href="https://nette.org">Title</a></p>
 ```
 
-Avšak n:makra nejsou jen zkratkou pro párová makra, existují i ryzí n:makra, jako třeba [n:href |creating-links#Odkazy v šablonách] nebo velešikovný pomocník kodéra [n:class |default-macros#n:class].
+Avšak n:makra nejsou jen zkratkou pro párová makra, existují i ryzí n:makra, jako třeba [n:href |application/creating-links#Odkazy v šablonách] nebo velešikovný pomocník kodéra [n:class |default-macros#n:class].
 
 
 Helpery v Latte
@@ -173,7 +173,7 @@ Parametry se zadávají za jménem helperu oddělené dvojtečkami nebo čárkam
 <h1>{$heading|truncate:20,''}</h1>
 ```
 
-Podívejte se také na přehled [standardních helperů |default helpers] a způsob, jak si [vytvořit helpery vlastní |#helpery].
+Podívejte se také na přehled [standardních helperů |default-helpers] a způsob, jak si [vytvořit helpery vlastní |#helpery].
 
 
 Rychlost
@@ -284,7 +284,7 @@ $set->addMacro('if', function($node, $writer) {
 Helpery
 =======
 
-V šablonách můžeme používat funkce, které pomáhají upravit nebo přeformátovat data do výsledné podoby. Říkáme jim *helpery*. Podívejte se na [přehled všech standardních helperů|default helpers].
+V šablonách můžeme používat funkce, které pomáhají upravit nebo přeformátovat data do výsledné podoby. Říkáme jim *helpery*. Podívejte se na [přehled všech standardních helperů|default-helpers].
 
 
 Jako helper lze do šablony zaregistrovat libovolný callback nebo anonymní funkci, např. v `BasePresenter`:
@@ -385,7 +385,7 @@ $template->lastName = 'Doe';
 $template->render(); // vykreslí šablonu
 ```
 
-Abychom mohli v šabloně používat helpery, musíme je zaregistrovat. [Výchozí helpery |default helpers] přidáme tímto způsobem:
+Abychom mohli v šabloně používat helpery, musíme je zaregistrovat. [Výchozí helpery |default-helpers] přidáme tímto způsobem:
 
 ```php
 $template->registerHelperLoader('Nette\Templating\Helpers::loader');
