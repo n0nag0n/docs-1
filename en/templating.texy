@@ -55,7 +55,7 @@ As you can see there are two types of macros:
 Macros
 ------
 
-You can find detailed description of all the default macros on the [extra page |default macros]. Furthermore, you can make your own [#user-defined macros].
+You can find detailed description of all the default macros on the [extra page |default-macros]. Furthermore, you can make your own [#user-defined macros].
 
 Each pair macro, such as `{if} … {/if}`, operating upon single HTML element can be written in [n:macro |#n-macros] notation. So, it is possible to write the `{foreach}` macro in the same manner:
 
@@ -150,7 +150,7 @@ Depending on the value of `$url` variable this will print:
 <p><a href="https://nette.org">Title</a></p>
 ```
 
-However, n:macros are not only a shortcut for pair macros, there are some pure n:macros as well, for example [n:href |creating-links#Links in templates] or the coder's best friend [n:class |default-macros#n:class] macro.
+However, n:macros are not only a shortcut for pair macros, there are some pure n:macros as well, for example [n:href |application/creating-links#Links in templates] or the coder's best friend [n:class |default-macros#n:class] macro.
 
 
 Helpers in Latte
@@ -174,7 +174,7 @@ Parameters are put after the helper name separated by colon or comma:
 <h1>{$heading|truncate:20,''}</h1>
 ```
 
-See the summary of [standard helpers |default helpers] and how to [make user-defined helpers |#helpers].
+See the summary of [standard helpers |default-helpers] and how to [make user-defined helpers |#helpers].
 
 
 Performance
@@ -285,7 +285,7 @@ $set->addMacro('if', function($node, $writer) {
 Helpers
 =======
 
-In templates we can use functions which change or format the data to a form we want. They are called *helpers*. See the [summary of the default helpers|default helpers].
+In templates we can use functions which change or format the data to a form we want. They are called *helpers*. See the [summary of the default helpers|default-helpers].
 
 
 Helper can be registered by any callback or lambda function:
@@ -352,7 +352,7 @@ $template->lastName = 'Doe';
 $template->render(); // renders the template
 ```
 
-We need to register the helpers if we want to use them in the template. [Default helpers |default helpers] are registered like this:
+We need to register the helpers if we want to use them in the template. [Default helpers |default-helpers] are registered like this:
 
 ```php
 $template->registerHelperLoader('Nette\Templating\Helpers::loader');

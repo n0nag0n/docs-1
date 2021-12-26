@@ -3,7 +3,7 @@ Konfigurace Nette
 
 Konfigurace se obykle zapisuje v NEON souboru. Se syntaxí si můžete pohrát na stránce https://ne-on.org.
 
-Většinu parametrů Nette Frameworku lze nyní ovlivnit pomocí konfiguračního souboru. Nette Framework sám sebe konfiguruje pomocí [rozšíření DI Containeru |cs/configuring#rozsireni-pro-kontejner], které přijímá parametry v sekci `nette` v konfiguračním souboru, která se nachází pod hlavní sekcí `common` (pokud ji používáte).
+Většinu parametrů Nette Frameworku lze nyní ovlivnit pomocí konfiguračního souboru. Nette Framework sám sebe konfiguruje pomocí [rozšíření DI Containeru |di/extensions], které přijímá parametry v sekci `nette` v konfiguračním souboru, která se nachází pod hlavní sekcí `common` (pokud ji používáte).
 
 
 Sessions
@@ -241,7 +241,7 @@ factories:
 Vlastní služby
 --------------
 
-Konfigurační soubor je místem, kam umísťujeme definice vlastních služeb. Slouží k tomu sekce `services`. Například tato [definice služby|di-services]:
+Konfigurační soubor je místem, kam umísťujeme definice vlastních služeb. Slouží k tomu sekce `services`. Například tato [definice služby|di/services]:
 
 ```neon
 services:
