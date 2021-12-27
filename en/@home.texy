@@ -1,90 +1,22 @@
-''Nette 3.1 Documentation''
-***************************
+The Book
+********
 
-<div class=documentation>
+<div class=perex>
 
-<div class=documentation-box>
+This is a walkthrough for your first application in Nette Framework. Let's begin!
 
-
-Preface
--------
-- [Why Use Nette?|10-reasons-why-nette]
-- <b>[Create Your First Application! |quickstart/getting-started]<b>
-
-
-- [Packages & Installation |packages]
-- [Maintenance and PHP |maintenance]
-- [Release Notes |https://nette.org/releases]
-- [Upgrade Guide |migrations/to-3-1]
-- [Troubleshooting]
-- [Who Creates Nette |https://nette.org/contributors]
-- [Get Involved |contributing/code]
-- [API reference |https://api.nette.org/]
-</div>
-
-
-<div class=documentation-box>
-
-
-Nette Application
------------------
-- [Configuration |configuring]
-- [How do Applications Work? |application/how-it-works]
-- [application/Bootstrap]
-- [application/Presenters]
-- [application/Routing]
-- [Creating URL Links |application/creating-links]
-- [Components and Controls |application/components]
-- [AJAX & Snippets |application/ajax]
-
-
-- [Cookbook |cookbook/@home]
-</div>
-
-
-<div class=documentation-box>
-
-
-Main Topics
------------
-- [Dependency Injection|di/introduction]
-- [Latte: Templates |latte:]
-- [Tracy: Debugging Tool |tracy:]
-- [Forms|forms/@home]
-- [Database |database/core]
-- [Authentication & Authorization |security/access-control]
-- [http/Sessions]
-- [HTTP request & response|http/request-response]
-- [Caching]
-- [Emails Sending |mailing]
-- [Schema]
-- [PHP Code Generator |php-generator]
-- [Tester: Unit Testing |tester:]
-</div>
-
-
-<div class=documentation-box>
-
-
-Utilities
----------
-- [utils/Arrays]
-- [Filesystem |utils/filesystem]
-- [Finder]
-- [utils/HTML Elements]
-- [utils/Images]
-- [utils/JSON]
-- [NEON|neon/@home]
-- [Password Hashing |security/passwords]
-- [utils/SmartObject]
-- [PHP Reflection |utils/reflection]
-- [utils/Strings]
-- [Validators |utils/validators]
-- [...others |utils/@home]
-</div>
+.[navig]
+1. [Getting started|book/start]
+2. [Database and model|book/database]
+3. [Presenters and templates|book/presenter]
+4. Forms
+5. Components
+6. User authentication
+7. AJAX
+8. URL and routing
+9. Deployment and security
 
 </div>
 
 
-{{toc:no}}
-{{description: Official Nette Documentation: describes how Nette works and the best practices for developing web applications.}}
+This quickstart was written for Nette v2.0.8 and PHP 5.3 and newer. Checkout your version.
