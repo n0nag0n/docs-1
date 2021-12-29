@@ -11,9 +11,9 @@ Main Topics
 - [Authentication & Authorization |security/access-control]
 - [http/Sessions]
 - [HTTP request & response|http/request-response]
-- [Caching]
-- [Emails Sending |mailing]
-- [PHP Code Generator |php-generator]
+- [Caching |caching/@home]
+- [Emails Sending |mail/@home]
+- [PHP Code Generator |php-generator/@home]
 
 
 - [Latte: templates |latte:]
