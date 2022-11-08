@@ -36,7 +36,6 @@ Main Topics
 - [HTTP request|http/request] & [response|http/response]
 - [Caching |caching/@home]
 - [Emails Sending |mail/@home]
-- [PHP Code Generator |php-generator/@home]
 - [Tester: Unit Testing |tester:]
 </div>
 
@@ -54,6 +53,7 @@ Utilities
 - [utils/JSON]
 - [NEON|neon/@home]
 - [Password Hashing |security/passwords]
+- [PHP Code Generator |php-generator/@home]
 - [utils/SmartObject]
 - [PHP Reflection |utils/reflection]
 - [utils/Strings]
